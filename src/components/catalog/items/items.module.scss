@@ -1,0 +1,57 @@
+$var1: #000000;
+$var2: #828282;
+$font: 'Open Sans';
+
+* {
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	display: flexbox;
+	max-width: 1400px;
+}
+.title {
+	position: absolute;
+	width: 210px;
+	height: 32px;
+	margin-left: 22px;
+	top: 32px;
+	font-family: $font;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	color: $var1;
+}
+.text {
+	position: absolute;
+	width: 250px;
+	height: 16px;
+	margin-left: 22px;
+	top: 88px;
+	font-family: $font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	color: $var2;
+}
+.stockButton {
+	margin-top: 110px;
+	margin-left: 22px;
+	text-align: left;
+	font-family: $font;
+	button {
+		height: 30px;
+		width: 90px;
+	}
+}
+.itemsData {
+	top:30px;
+	margin-top: 0px;
+	padding-top: 0px;
+}

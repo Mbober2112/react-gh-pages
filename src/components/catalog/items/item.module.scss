@@ -1,0 +1,174 @@
+$var1: #F3F3F3;
+$var2: #FFFFFF;
+$var3: #808080;
+$var4: #000000;
+$font: 'Open Sans';
+
+* {
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	display: flexbox;
+	max-width: 1300px;
+	text-align: center;
+}
+.item {
+	display: inline-block;
+	width: 325px;
+	height: 423px;
+	left: -10px;
+	align-items: center;
+	margin: 12px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.title {
+	// position: absolute;
+	width: 305px;
+	height: 400px;
+	left: -10px;
+	margin-top: -25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url(../../../images/image.png);
+}
+.created {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 26px;
+    padding-top: 26px;
+    margin-left: 16px;
+    text-align: left;
+    color: $var1;
+}
+.author {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-left: 16px;
+    text-align: left;
+    color: $var2;
+}
+.name {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: $var2;
+    margin-top: 277px;
+    margin-left: 16px;
+    text-align: left;
+}
+.info {
+    width: 305px;
+    height: 78px;
+    left: 0px;
+    top: 404px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 3px 5px gray;
+}
+.created {
+	font-family: $font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 26px;
+	padding-top: 26px;
+	margin-left: 16px;
+	text-align: left;
+	color: $var1;
+}
+.author {
+	font-family: $font;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 0px;
+	margin-left: 16px;
+	text-align: left;
+	color: $var2;
+}
+.name {
+	font-family: $font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: $var2;
+	margin-top: 277px;
+	margin-left: 16px;
+	text-align: left;
+}
+.info {
+	width: 305px;
+	height: 78px;
+	left: 0px;
+	top: 404px;
+	background-color: $var2;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 0px 3px 5px gray;
+	display: grid;
+	grid-template-columns: 3fr 5fr;
+}
+.avialable {
+	margin: 16px;
+	background-color: $var2;
+	width: 81px;
+	height: 46px;
+	left: 16px;
+	top: 420px;
+	display: inline-block;
+	text-align: left;
+	font-family: $font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: $var3;
+	p {
+		text-align: left;
+	}
+}
+.price p {
+	text-align: right;
+}
+.number {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: $var4;
+}
+.price {
+	background-color: $var2;
+	width: 114px;
+	height: 43px;
+	left: 175px;
+	top: 420px;
+	display: inline-block;
+	margin-left: 78px;
+	padding-right: 16px;
+	font-family: $font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: $var3;
+}
+.cost {
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
+	text-align: right;
+}
