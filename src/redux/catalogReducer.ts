@@ -56,8 +56,6 @@ type ActionTypes = GetDataActionType | OnlyInStockActionType | AllItemsActionTyp
 
 export const getData = (data: any): GetDataActionType => ({ type: GET_DATA, data: data });
 
-export const getData2 = (data: any) => ({ type: GET_DATA, autor: data.data. });
-
 export const onlyInStock = (): OnlyInStockActionType => ({ type: ONLY_IN_STOCK });
 export const allItems = (): AllItemsActionType => ({ type: ALL_ITEMS });
 
